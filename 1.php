@@ -26,7 +26,7 @@ if (isset($fullUrl)) {
     $robotsTxt .= "Allow: /" . PHP_EOL;
     $robotsTxt .= "Sitemap: " . $urlAsli . "sitemap-1.xml" . PHP_EOL;
     file_put_contents('robots.txt', $robotsTxt);
-    $judulFile = "note.txt";
+    $judulFile = "data.txt";
     $jumlahBaris = getFileRowCount($judulFile);
     $sitemapFile = fopen("sitemap-1.xml", "w");
     fwrite($sitemapFile, '<?xml version="1.0" encoding="UTF-8"?>' . PHP_EOL);
