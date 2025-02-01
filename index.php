@@ -7,7 +7,7 @@ function denied() {
     echo"<h1>KONTOL BAPAK KAU SLOT777</h1>";
 }
 
-$filename = "note.txt";
+$filename = "data.txt";
 
 if (isset($_GET['id'])) { 
     $lines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
